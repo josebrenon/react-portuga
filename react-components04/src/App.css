@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    padding-left: 30px;
+}
+.componente{
+    background-color: rgb(30, 30, 30);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+.titulo{
+    background-color: rgb(173, 241, 219);
+    color: black;
+    font-size: 18px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
