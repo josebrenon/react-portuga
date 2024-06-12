@@ -1,12 +1,12 @@
 import React from "react";
 import clientes from "../dados_clientes/dados_clientes";
 
-const ComponenteSeis = (props) => {
+export default function ComponenteSeis(props) {
   function cliente() {
     return clientes.map((cliente) => {
       return (
         <li key={cliente.id_cliente}>
-          Nome: {cliente.nome} | Email: {cliente.email}
+          Nome: {cliente.nome} || Email: {cliente.email}
         </li>
       );
     });
@@ -18,6 +18,4 @@ const ComponenteSeis = (props) => {
       <ul>{cliente()}</ul>
     </div>
   );
-};
-
-export default ComponenteSeis;
+}
