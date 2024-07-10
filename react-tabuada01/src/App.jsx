@@ -23,6 +23,7 @@ export default function App() {
         onChange={(e) => {
           setNum(parseInt(e.target.value));
         }}
+        placeholder="Digite um número"
       />
       {multiplicar().map((item) => {
         return <p key={uuid()}>{item}</p>;
